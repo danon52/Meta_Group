@@ -74,6 +74,9 @@ function App() {
     TypeText()
     return () => clearTimeout(timeout)
   }, [])
+
+
+
   return (
     <div className="">
       <div className=" snap-y snap-mandatory scroll-smooth ">
@@ -90,7 +93,7 @@ function App() {
                 <p className="text-white text-7xl text-wrap">{output}</p>
               </div>
               <div className="mt-20 flex">
-                <img src="Vector.svg" alt="" />
+                <img src="Yandex.svg" alt="" />
                 <p className="text-6xl text-white ml-5 font-bold"> Бизнес</p>
               </div>
             </div>
@@ -112,14 +115,11 @@ function App() {
         </div>
 
 
-
-
         {/* <div className="">
         <div className="flex" >
           <p className="text-white text-7xl" >{increase}</p>
           <span className="animate-pulse h-10 w-0.5 bg-white ml-4 mt-5"> </span>
         </div>
-
         <p className="text-white text-7xl py-5">{Look}</p>
         <p className="text-white text-7xl">{Bisness}</p>
       </div> */}

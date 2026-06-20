@@ -43,10 +43,18 @@ export default function Footer() {
                         {/* foter for pc version  */}
                         <p className='px-20 h-60 w-full text-gray-600 text-[260px] mr-70'>METAGROUPE</p>
                     </div>
+
                     <div className='ml-[-40px]'>
-                        <div className=' absolute w-40 bg-yellow-400 h-13 rounded-2xl mt-20  flex justify-start '>
-                            <div className='flex justify-start '>
-                                <img className='w-70 py-2  ' src="no.svg" alt="" />
+                        <div className='w-200 flex  ' >
+                            <div className=' absolute w-40 bg-yellow-400 h-13 rounded-2xl mt-20 flex '>
+                                <div className='flex justify-start '>
+                                    <div>
+                                        <img className='w-50 py-2' src="no.svg" alt="" />
+                                    </div>
+                                    <div className='w-190 ml-10 mt-3'>
+                                        <p className=' text-white text-xl'>Рассрочка за 2 минуты , не выходя из дома</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
