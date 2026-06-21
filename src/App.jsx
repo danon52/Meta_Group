@@ -157,6 +157,7 @@ function App() {
         <div>
         </div>
       </div>
+
       <div className="mt-20">
         {/* <div className="w-full  ">
           <p className="text-3xl text-white ">Дело не в том, что у вас нет клиентов. Дело в том,  что они видят <p className="text-[#FF6A3D]">соседний пин</p>,а не ваш.</p>
@@ -177,13 +178,13 @@ function App() {
           <div className="w-full h-22   rounded-2xl  border mt-10" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
-              <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
+              <p className="text-white ml-6 mt-5">Нет ответов на отзывы - доверие ниже , чем у конкурентов рядом </p>
             </div>
           </div>
           <div className="w-full h-22   bg-none  rounded-2xl  border mt-10" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
-              <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
+              <p className="text-white ml-6 mt-5">Карточка не продвигается - компанию не находят на карте </p>
             </div>
 
           </div>
@@ -193,7 +194,7 @@ function App() {
       <div className="mt-20">
         <div className="w-full h-100 border rounded-2xl">
           <div>
-            <p className="text-white text-xl mt-2 ml-10">Кофейня рядом · поиск</p>
+            <p className="text-white text-xl mt-5 ml-10">Кофейня рядом · поиск</p>
           </div>
           <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20">
             {/* еще картинка будет */}
@@ -203,13 +204,13 @@ function App() {
 
           <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
             {/* еще картинка будет */}
-            <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
-            <p className="text-xl ml-2">4.9 230 отзывов </p>
+            <p className="text-xl ml-2">Ваша компания - без фото  </p>
+            <p className="text-xl ml-2">3 отзыва </p>
           </div>
           <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
             {/* еще картинка будет */}
-            <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
-            <p className="text-xl ml-2">4.9 230 отзывов </p>
+            <p className="text-xl ml-2">Кофейня Луна - без описания  </p>
+            <p className="text-xl ml-2">Не отвечает на отзывы  </p>
           </div>
         </div>
 
