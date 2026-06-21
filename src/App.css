@@ -6,8 +6,10 @@
 @custom-variant dark (&:is(.dark *));
 body{
     background-color: #101213;
-    margin-left: 1rem;
+margin-left: 2rem;
     color: white;
+
+
 
     
 }

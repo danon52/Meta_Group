@@ -82,7 +82,12 @@ function App() {
     <div className="h-screen w-full snap-start scroll-smooth">
       <div className="">
         <header className="py-10  flex  ">
-          <p className="text-white text-3xl">
+          <div>
+            <img className="w-7 mt-1" src="<img class="
+              src="https://static.tildacdn.com/tild3833-6131-4738-a430-373834626263/Group_39903.svg" alt=""
+              imgfield="tn_img_1748261949057" alt="" />
+          </div>
+          <p className="text-white text-3xl ml-4">
             MetaGroupe ®
           </p>
           <div className="px-4">
@@ -105,10 +110,10 @@ function App() {
             <div className="mt-5 w-80">
               <p className="text-3xl text-[#FF6A3D] font-bold">Пока ваш профиль молчит, <br /> клиенты  уходят к соседнему <br /> пину на карте</p>
             </div>
-            <div className="mt-10   w-105  lg:flex justify-start">
+            <div className="mt-10   w-105  lg:flex justify-start w-auto">
               <button className="w-80 active:bg-[#FF6A3D] ml-5  text-center h-15  border py-2  text-white rounded-3xl 
-              shadow-white  lg:w-60 lg:h-20 lg:text-2xl  lg:hover:bg-[#151414] sm:hover:text-white
-              transition-all duration-500 ease-out lg:hover:scale-105 sm:hover:translate-y-1 lg:hover:shadow-lg ">
+              shadow-white  lg:cursor-pointer lg:w-60 mt-5 lg:h-20 lg:text-2xl  lg:hover:bg-[#151414] lg:hover:text-white
+              transition-all duration-500 ease-out lg:hover:scale-105 lg:hover:translate-y-1 lg:hover:shadow-lg ">
                 Заказать оформление
               </button>
               <div className="ml-5 mt-5">
@@ -119,26 +124,27 @@ function App() {
           </div>
         </div>
         <div>
-          <div className="mt-20">
-            <hr className="bg-white w-90 mt-2" />
-            <div>
+          <hr className="hidden  lg:mt-20 blcok" />
+          <div className=" mt-10 lg:flex justify-center">
+            <hr className="bg-white w-90 mt-2  block lg:hidden" />
+            <div className="lg:border-r-2 border-gray-300 px-5">
               <p className="text-white text-2xl mt-2">50 млн+</p>
               <p className="text-gray-400">человек открывает Яндекс карты каждый месяц </p>
             </div>
-            <div className="">
-              <hr className="bg-white w-90 mt-2" />
+            <hr className="bg-white w-90 mt-2  block lg:hidden" />
+            <div className="lg:border-r-2 border-gray-300 px-5">
               <p className="text-white text-2xl mt-2">11</p>
-              <p className="text-gray-400">Пунктов входит в полное оформление профиля </p>
+              <p className="text-gray-400">ПУнктов входит в полное оформление профиля</p>
             </div>
-            <hr className="bg-white w-90 mt-2" />
-            <div>
+            <hr className="bg-white w-90 mt-2 block lg:hidden" />
+            <div className="lg:ml-5">
               <p className="text-white text-2xl mt-2">~30</p>
               <p className="text-gray-400 text-xl">дней - средний срок выполнение работ </p>
             </div>
-            <hr className="bg-white w-90 mt-2" />
-
+            <hr className="bg-white w-90 mt-2 block lg:hidden" />
           </div>
         </div>
+
 
         {/* <div className="mt-20">
           <p className="text-3xl text-white">Продвигайте компанию <br /> в Яндекс: Картах,</p>
@@ -158,29 +164,60 @@ function App() {
         </div>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-20 lg:ml-50">
         {/* <div className="w-full  ">
           <p className="text-3xl text-white ">Дело не в том, что у вас нет клиентов. Дело в том,  что они видят <p className="text-[#FF6A3D]">соседний пин</p>,а не ваш.</p>
         </div> */}
-        <div className="mt-5">
-          <p className="text-gray-400 text-2xl">Без оформленного профиля компания теряется среди конкурентов именно в тот момент, когда клиент уже готов прийти, — он просто выбирает того, чья карточка ответила первой</p>
+        <div className="lg:flex  justify-between w-300">
+          <div className="mt-5 lg:w-128 mt-20 ">
+            <div className="text-gray-400 text-2xl lg:text-3xl">
+              <p>Дело не в том, что у вас нет клиентов. Дело в том, что они видят соседний пин, а не ваш.</p>
+            </div>
+            <p className="text-gray-400 text-2xl lg:text-3xl mt-10">Без оформленного профиля компания теряется среди конкурентов именно в тот момент, когда клиент уже готов прийти, — он просто выбирает того, чья карточка ответила первой</p>
+
+          </div>
+          <div>
+            <div className="mt-20  hidden lg:block px-20">
+              <div className="w-full h-100 border rounded-2xl lg:w-120 h-110">
+                <div>
+                  <p className="text-white text-xl mt-5 ml-10">Кофейня рядом · поиск</p>
+                </div>
+                <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
+                  {/* еще картинка будет */}
+                  <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
+                  <p className="text-xl ml-2">4.9 230 отзывов </p>
+                </div>
+
+                <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
+                  {/* еще картинка будет */}
+                  <p className="text-xl ml-2">Ваша компания - без фото  </p>
+                  <p className="text-xl ml-2">3 отзыва </p>
+                </div>
+                <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
+                  {/* еще картинка будет */}
+                  <p className="text-xl ml-2">Кофейня Луна - без описания  </p>
+                  <p className="text-xl ml-2">Не отвечает на отзывы  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 lg:m-0 p-0 px-50">
         <div>
-          <div className="w-full h-22   rounded-2xl  border" >
+          <div className="w-full h-22 rounded-2xl  border lg:w-100" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
             </div>
           </div>
-          <div className="w-full h-22   rounded-2xl  border mt-10" >
+          <div className="w-full h-22   rounded-2xl  border mt-10 lg:w-100" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Нет ответов на отзывы - доверие ниже , чем у конкурентов рядом </p>
             </div>
           </div>
-          <div className="w-full h-22   bg-none  rounded-2xl  border mt-10" >
+          <div className="w-full h-22   bg-none  rounded-2xl  border mt-10 lg:w-100" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Карточка не продвигается - компанию не находят на карте  </p>
@@ -189,23 +226,23 @@ function App() {
         </div>
       </div>
       {/* блок с демонстрацией  */}
-      <div className="mt-20">
-        <div className="w-full h-100 border rounded-2xl">
+      <div className="mt-20  block lg:hidden">
+        <div className="w-full h-100 border rounded-2xl lg:w-120 h-110">
           <div>
             <p className="text-white text-xl mt-5 ml-10">Кофейня рядом · поиск</p>
           </div>
-          <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20">
+          <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
             {/* еще картинка будет */}
             <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
             <p className="text-xl ml-2">4.9 230 отзывов </p>
           </div>
 
-          <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
+          <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
             {/* еще картинка будет */}
             <p className="text-xl ml-2">Ваша компания - без фото  </p>
             <p className="text-xl ml-2">3 отзыва </p>
           </div>
-          <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20">
+          <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
             {/* еще картинка будет */}
             <p className="text-xl ml-2">Кофейня Луна - без описания  </p>
             <p className="text-xl ml-2">Не отвечает на отзывы  </p>
@@ -220,67 +257,69 @@ function App() {
           <p>Маршрут клиента к вашей карточке — собираем по пунктам</p>
         </div>
       </div>
-      <div className="mt-10">
-        <div className="w-20 h-20 rounded-full border">
-          <p className="px-7 py-6 text-xl">01</p>
-        </div>
-        <div className="py-10">
-
+      <div className="flex justify-center">
+        <div className="mt-10 ">
           <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">02</p>
+            <p className="px-7 py-6 text-xl">01</p>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">03</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">02</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
-          <div className="w-20  h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">04</p>
-          </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl  ">05</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">03</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
-
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">06</p>
+          <div className="py-10">
+            <div className="w-20  h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">04</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl"  >07</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl  ">05</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl">08</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">06</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">09</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl"  >07</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">10</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl">08</p>
+            </div>
           </div>
-        </div>
-        <div className="py-10">
+          <div className="py-10">
 
-          <div className="w-20 h-20 rounded-full border">
-            <p className="px-6 py-6 text-xl ">11</p>
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">09</p>
+            </div>
+          </div>
+          <div className="py-10">
+
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">10</p>
+            </div>
+          </div>
+          <div className="py-10">
+
+            <div className="w-20 h-20 rounded-full border">
+              <p className="px-6 py-6 text-xl ">11</p>
+            </div>
           </div>
         </div>
       </div>
