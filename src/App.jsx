@@ -84,7 +84,6 @@ function App() {
         <Header />
       </div>
       <div className="">
-
         <header className="py-10  flex block lg:hidden  ">
           <div>
             <img className="w-7 mt-1" src="<img class="
@@ -157,21 +156,6 @@ function App() {
           </div>
         </div>
 
-
-        {/* <div className="mt-20">
-          <p className="text-3xl text-white">Продвигайте компанию <br /> в Яндекс: Картах,</p>
-          <p className="text-2xl  py-3 text-[#D14A0B]">Поиске и Навигаторе с  <br />помощью Яндекс Бизнеса</p>
-        </div> */}
-        {/* <div className="mt-20 ">
-          <div className="flex justify-center">
-            <p className="text-white text-4xl">Вниз</p>
-          </div>
-          <div className="flex justify-center mt-5" >
-            <button onClick={ScrollHandler} className="cursor-pointer">
-              <img src="iconbut.svg" alt="" />
-            </button>
-          </div>
-        </div> */}
 
       </div>
 
@@ -246,7 +230,6 @@ function App() {
             <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
             <p className="text-xl ml-2">4.9 230 отзывов </p>
           </div>
-
           <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
             {/* еще картинка будет */}
             <p className="text-xl ml-2">Ваша компания - без фото  </p>
@@ -269,8 +252,6 @@ function App() {
           </div>
         </div>
       </div>
-
-
       <div className="grid grid-cols-2 mt-10 gap-5   " >
         <div className="border w-90 h-50 ">
           <p className="text-xl">01</p>
