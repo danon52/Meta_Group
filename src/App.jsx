@@ -2,6 +2,7 @@ import "./App.css";
 import { useEffect, useRef } from "react";
 import { useState } from "react";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
 
@@ -79,8 +80,12 @@ function App() {
   // h-screen w-full overflow-y-scroll snap-y snap-mandatory
   return (
     <div className=" px-3 h-screen w-full snap-start scroll-smooth lg:px-20">
+      <div className="hidden lg:block">
+        <Header />
+      </div>
       <div className="">
-        <header className="py-10  flex  ">
+
+        <header className="py-10  flex block lg:hidden  ">
           <div>
             <img className="w-7 mt-1" src="<img class="
               src="https://static.tildacdn.com/tild3833-6131-4738-a430-373834626263/Group_39903.svg" alt=""
@@ -108,7 +113,7 @@ function App() {
                   </p>
                 </div> */}
               </div>
-              <div className="mt-5 flex ">
+              <div className="mt-30 flex ">
                 <img className="w-10 lg:w-15" src="Yandex.svg" alt="" />
                 <p className="text-4xl text-white ml-5 font-bold lg:text-5xl mt-1"> Бизнес</p>
               </div>
@@ -264,7 +269,8 @@ function App() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="mt-10 ">
+          <div className="mt-10  ">
+
             <div className="w-20 h-20 rounded-full border">
               <p className="px-7 py-6 text-xl">01</p>
             </div>
@@ -274,7 +280,7 @@ function App() {
                 <p className="px-6 py-6 text-xl ">02</p>
               </div>
             </div>
-            <div className="py-10">
+            <div className="">
 
               <div className="w-20 h-20 rounded-full border">
                 <p className="px-6 py-6 text-xl ">03</p>
@@ -285,7 +291,7 @@ function App() {
                 <p className="px-6 py-6 text-xl ">04</p>
               </div>
             </div>
-            <div className="py-10">
+            <div className="">
 
               <div className="w-20 h-20 rounded-full border">
                 <p className="px-6 py-6 text-xl  ">05</p>
@@ -297,7 +303,7 @@ function App() {
                 <p className="px-6 py-6 text-xl ">06</p>
               </div>
             </div>
-            <div className="py-10">
+            <div className="">
 
               <div className="w-20 h-20 rounded-full border">
                 <p className="px-6 py-6 text-xl"  >07</p>
@@ -309,7 +315,7 @@ function App() {
                 <p className="px-6 py-6 text-xl">08</p>
               </div>
             </div>
-            <div className="py-10">
+            <div className="">
 
               <div className="w-20 h-20 rounded-full border">
                 <p className="px-6 py-6 text-xl ">09</p>
@@ -318,7 +324,7 @@ function App() {
             <div className="py-10">
 
               <div className="w-20 h-20 rounded-full border">
-                <p className="px-6 py-6 text-xl ">10</p>
+                <p className="px-7 py-6 text-xl ">10</p>
               </div>
             </div>
             <div className="py-10">
@@ -467,8 +473,8 @@ function App() {
           </div>
         </div>
       </div> */}
-      <div className="mt-50">
-        {/* <Footer /> */}
+      <div className=" hidden mt-50 lg:block">
+        <Footer />
       </div>
     </div >
   );
