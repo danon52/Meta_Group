@@ -271,51 +271,87 @@ function App() {
       </div>
 
 
-      <div className="grid grid-cols-4 gap-4" >
-
-        <div className="border w-50 h-auto ">
-          <p>
+      <div className="grid grid-cols-2 mt-10 gap-5   " >
+        <div className="border w-90 h-50 ">
+          <p className="text-xl">01</p>
+          <p className="text-xl">
             Геолокация и вход
           </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
-        </div>
-        <div className="border w-50 h-auto " >
-          <p>
-            Геолокация и вход
-          </p>
-          <p>Корректное размещение точки на карте и привязка в оргазинацию</p>
+          <p className="text-xl mt-4 px-2">Корректное размещение точки на карте и привязка в оргазинацию</p>
         </div>
 
+        <div className="border w-90 h-50 ">
+          <p className="text-xl">02</p>
+          <p className="text-xl">
+            Шапка профиля
+          </p>
+          <p className="text-xl mt-4 px-2">Название, категория, график работы, контакты — всё, что видно первым.</p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">03</p>
+          <p className="text-xl">
+            Оформление профиля
+          </p>
+          <p className="text-xl mt-4 px-2">Обложка, логотип, карточки товаров — единый визуальный стиль.
+
+          </p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">04</p>
+          <p className="text-xl">
+            Фотографии по разделам
+          </p>
+          <p className="text-xl mt-4 px-2">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">05</p>
+          <p className="text-xl">
+            Внешние ссылки
+          </p>
+          <p className="text-xl mt-4 px-2">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">06</p>
+          <p className="text-xl">
+            Витрина товаров
+          </p>
+          <p className="text-xl mt-4 px-2">До 20 позиций товаров или услуг с ценами и описанием.</p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">07</p>
+          <p className="text-xl">
+            Новости и акции
+          </p>
+          <p className="text-xl mt-4 px-2">До 5 публикаций — повод вернуться и заметить вас снова.</p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">08</p>
+          <p className="text-xl">
+            Работа с отзывами
+          </p>
+          <p className="text-xl mt-4 px-2">Ответы на отзывы и выстраивание репутации профиля.
+
+          </p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">09</p>
+          <p className="text-xl">
+            QR-код профиля
+          </p>
+          <p className="text-xl mt-4 px-2">Код со ссылкой на карточку — для вывесок, меню, визиток.
+
+          </p>
+        </div> <div className="border w-90 h-50 ">
+          <p className="text-xl">10</p>
+          <p className="text-xl">
+            Лента сторис
+          </p>
+          <p className="text-xl mt-4 px-2">Короткие визуальные обновления прямо в профиле компании.
+
+          </p>
+        </div>
+        <div className="border w-90 h-50 ">
+          <p className="text-xl">11</p>
+          <p className="text-xl">
+            SEO-продвижение карточки
+          </p>
+          <p className="text-xl mt-4 px-2">Работа с ключевыми словами, чтобы карточку находили чаще.
+
+          </p>
+        </div>
 
       </div>
       {/* <div className="overflow-hidden whitespace-nowrap mt-10">
