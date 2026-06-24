@@ -41,7 +41,7 @@ export default function Footer() {
                     </div>
                     <div className='flex justify-center w-full '>
                         {/* foter for pc version  */}
-                        <p className='px-20 h-60 w-full text-gray-600 text-[240px] mr-70'>METAGROUPE</p>
+                        <p className='px-20 h-60 w-full text-gray-600 text-[220px] mr-70'>METAGROUPE</p>
                     </div>
 
                     <div className='ml-[-40px]'>

@@ -121,7 +121,8 @@ function App() {
               {/* text-[#FF6A3D]  */}
               <p className="text-3xl font-bold text-[#FFFFFF]">Пока ваш профиль молчит, <br /> клиенты  уходят к соседнему <br /> пину на карте</p>
             </div>
-            <div className="mt-10  w-105  lg:flex justify-start w-auto font-[Involve]">
+            {/* font-[Involve] */}
+            <div className="mt-10  w-105  lg:flex justify-start w-auto ">
               <button className="w-80 active:bg-[#FF6A3D]  text-center h-15  border py-2  text-white rounded-3xl 
               lg:cursor-pointer lg:w-60 mt-5 lg:h-20 lg:text-2xl  lg:hover:bg-[#3D3D3D] lg:hover:text-white
               transition-all duration-500 ease-out lg:hover:scale-105 lg:hover:translate-y-1 lg:hover:shadow-lg ">
@@ -134,7 +135,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="lg:flex justify-center font-[Unbounded]">
+        {/* font-[Unbounded] */}
+        <div className="lg:flex justify-center ">
           <hr className="hidden lg:mt-20 blcok" />
           <div className=" mt-10 lg:flex">
             <hr className="bg-white w-90 mt-2  block lg:hidden" />
@@ -163,7 +165,8 @@ function App() {
         {/* <div className="w-full  ">
           <p className="text-3xl text-white ">Дело не в том, что у вас нет клиентов. Дело в том,  что они видят <p className="text-[#FF6A3D]">соседний пин</p>,а не ваш.</p>
         </div> */}
-        <div className=" lg:flex  justify-between w-300 lg:w-full font-[Unbounded] ">
+        {/* font-[Unbounded] */}
+        <div className=" lg:flex  justify-between w-300 lg:w-full  ">
           <div className="mt-5 lg:w-128 mt-20 ">
             <div className="text-gray-400 text-2xl lg:text-3xl">
               <p className=" w-60 text-[#E0E0E0] lg:w-full ">Дело не в том, что у вас нет клиентов. Дело в том, что они видят соседний пин, а не ваш.</p>
@@ -355,6 +358,62 @@ function App() {
               </div>
             </div>
             <p>Официальная сертификация партнёрства с Яндексом</p>
+          </div>
+
+
+          <div>
+            <div className=" lg:flex justify-center mt-10">
+              <div>
+                <div className="w-90 h-55 border rounded-l-3xl">
+                  <p className="px-5 mt-5"> 01</p>
+                  <div>
+                    <p className="text-3xl py-3 px-5">Гарантии по договору</p>
+                  </div>
+                  <div>
+                    <p className="px-5 text-lg text-[#888888]">
+                      Сроки и состав работ закрепляем письменно, а не на словах.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div >
+                <div className="w-90 h-55 border">
+                  <p className="px-5 mt-5">02</p>
+                  <div className="">
+                    <p className="text-3xl px-5 py-3">Системный подход</p>
+                  </div>
+                  <div>
+                    <p className="px-5 text-[#888888]" >
+                      От геолокации до SEO-ключей — работаем по всем 11 пунктам, а не выборочно</p>
+                  </div>
+                </div>
+              </div>
+              <div >
+                <div className="w-90 h-55 border">
+                  <p className="px-5 mt-5">03</p>
+                  <div>
+                    <p className="px-5 text-3xl" >Опыт в локальном бизнесе</p>
+                  </div>
+                  <div>
+                    <p className="px-5 text-lg text-[#888888] ">
+                      Понимаем специфику малого и среднего бизнеса Ростова-на-Дону и области                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <div >
+                <div className="w-90 h-55 border rounded-r-3xl">
+                  <p className="px-5 mt-5">04</p>
+                  <div>
+                    <p className="text-3xl  px-5">Полный цикл агентства</p>
+                  </div>
+                  <div>
+                    <p className="px-5 text-lg text-[#888888]">
+                      При необходимости подключаем дизайн, контент-съёмку и SMM из одних рук.                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
