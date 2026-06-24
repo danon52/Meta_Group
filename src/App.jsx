@@ -175,20 +175,22 @@ function App() {
           </div>
           <div className="">
             <div className="mt-20  hidden lg:block px-20 ">
-              <div className="w-100  h-100 border rounded-2xl  lg:w-full h-110 px-4 ">
+              <div className="w-100  h-100 border rounded-2xl bg-[#111111]  border-[#3D3D3D] lg:w-full h-110 px-4 ">
                 <div>
                   <p className="text-white text-xl   mt-5 ml-15 "> Кофейня рядом · поиск </p>
                 </div>
-                <div className="mt-5   w-90 border border-[#4DB87A]  rounded-2xl py-3 h-20 lg:w-120  ">
+                <div className="mt-5   w-90 border border-[#2E2E2E]  bg-[#1C1C1C]  rounded-2xl py-3 h-20 lg:w-120  hover:scale-105 hover:bg-[#252525] duration-300 hover:border-[#4DB87A] ">
                   <p className="text-xl ml-2 ">Кофейня Атлас - оформлен профль </p>
                   <p className="text-xl ml-2 text-[#C8A85E]">4.9 230 отзывов </p>
                 </div>
-                <div className="mt-5  w-90 border border-[#E84040] rounded-2xl py-3 h-20 lg:mt-10 w-120   ">
+                <div className="mt-5  w-90 border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl py-3 h-20 lg:mt-10 w-120   hover:scale-105 hover:bg-[#252525] duration-300 hover:border-[#E84040]  ">
                   {/* еще картинка будет */}
                   <p className="text-xl ml-2 lg:text-2xl">Ваша компания - без фото  </p>
-                  <p className="text-xl ml-2 text-[#E84040]">3 отзыва </p>
+                  <div>
+                    <p className="text-xl ml-2 text-[#E84040]  ">3 отзыва </p>
+                  </div>
                 </div>
-                <div className=" mt-5  w-90 border border-[#E84040] rounded-2xl py-3 h-20 lg:mt-10 w-120   ">
+                <div className=" mt-5  w-90 border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl py-3 h-20 lg:mt-10 w-120   hover:scale-105 hover:bg-[#252525] duration-300 hover:border-[#E84040]   ">
                   <p className="text-xl ml-2">Кофейня Луна - без описания  </p>
                   <p className="text-xl ml-2 text-[#E84040]">Не отвечает на отзывы  </p>
                 </div>
@@ -199,19 +201,19 @@ function App() {
       </div>
       <div className="mt-10 lg:m-0 p-0 ">
         <div>
-          <div className="w-full h-22 rounded-2xl  border lg:w-100" >
+          <div className="w-full h-22 rounded-2xl  border lg:w-100 hover:border-[#E84040] hover:scale-105 duration-500" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Профиль без фото и описания — мимо проходят, не открывая карточку</p>
             </div>
           </div>
-          <div className="w-full h-22   rounded-2xl  border mt-10 lg:w-100" >
+          <div className="w-full h-22   rounded-2xl  border mt-10 lg:w-100  hover:border-[#E84040] hover:scale-105 duration-500" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Нет ответов на отзывы - доверие ниже , чем у конкурентов рядом </p>
             </div>
           </div>
-          <div className="w-full h-22   bg-none  rounded-2xl  border mt-10 lg:w-100" >
+          <div className="w-full h-22   bg-none  rounded-2xl  border mt-10 lg:w-100  hover:border-[#E84040] hover:scale-105 duration-500" >
             <div className="flex">
               <img className='w-3 ml-4' src="×.svg" alt="" />
               <p className="text-white ml-6 mt-5">Карточка не продвигается - компанию не находят на карте  </p>
@@ -219,24 +221,23 @@ function App() {
           </div>
         </div>
       </div>
-      {/* блок с демонстрацией  */}
       <div className="mt-20  block lg:hidden">
         <div className="w-full h-100 border rounded-2xl lg:w-120 h-110">
           <div>
             <p className="text-white text-xl mt-5 ml-10">Кофейня рядом · поиск</p>
           </div>
           <div className="mt-5 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
-            {/* еще картинка будет */}
+
             <p className="text-xl ml-2">Кофейня Атлас - оформлен профль </p>
             <p className="text-xl ml-2">4.9 230 отзывов </p>
           </div>
           <div className=" mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
-            {/* еще картинка будет */}
+
             <p className="text-xl ml-2">Ваша компания - без фото  </p>
             <p className="text-xl ml-2">3 отзыва </p>
           </div>
           <div className="  mt-10 ml-5 w-90 border rounded-2xl py-3 h-20 lg:ml-15">
-            {/* еще картинка будет */}
+
             <p className="text-xl ml-2">Кофейня Луна - без описания  </p>
             <p className="text-xl ml-2">Не отвечает на отзывы  </p>
           </div>
@@ -245,7 +246,7 @@ function App() {
       <div >
         <div className="w-70 text-2xl">
           <div>
-            <p className=" text-xl mt-5 text-[#4A7FAA] lg:text-3xl mt-5 text-[#4A7FAA]">Решение</p>
+            <p className=" text-xl mt-5 text-[#4A7FAA] lg:text-5xl mt-5 text-[#FFFFFF]"> Что мы предлогаем </p>
           </div>
           <div className="mt-5">
             <p className=" text-xl lg:text-2xl text-[#E0E0E0]"></p>
@@ -254,84 +255,107 @@ function App() {
       </div>
       <div className="grid grid-cols-3 mt-10 gap-5   " >
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 hover:bg-[#252525] duration-300 hover:border-[#888888]  hover:scale-105 ">
-          <p className="text-xl  px-5" >01</p>
-          <p className="text-xl">
+          <p className="text-xl  px-5 mt-3" >01</p>
+          <p className=" text-3xl px-5 py-2">
             Геолокация и вход
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Корректное размещение точки на карте и привязка в оргазинацию</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Корректное размещение точки на карте и привязка в оргазинацию</p>
         </div>
 
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
           <p className="text-xl  px-5" >02</p>
-          <p className="text-xl px-5 py">
+          <p className="text-xl px-5 py-2">
             Шапка профиля
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Название, категория, график работы, контакты — всё, что видно первым.</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Название, категория, график работы, контакты — всё, что видно первым.</p>
         </div>
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
           <p className="text-xl px-5">03</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Оформление профиля
           </p>
-          <p className="text-xl mt-4 px-3  text-[#E0E0E0]">Обложка, логотип, карточки товаров — единый визуальный стиль.
+          <p className="text-xl mt-4 px-5  text-[#E0E0E0]">Обложка, логотип, карточки товаров — единый визуальный стиль.
 
           </p>
         </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525]  hover:border-[#888888]  duration-300 hover:scale-105">
           <p className="text-xl  px-5 ">04</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-3 py-2">
             Фотографии по разделам
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Структурированная фотолента: интерьер, услуги, команда, результаты.</p>
         </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
           <p className="text-xl  px-5">05</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Внешние ссылки
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Сайт, соцсети и мессенджеры — все пути до вас в одном месте.</p>
         </div>
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] duration-300  hover:border-[#888888]  hover:scale-105 ">
           <p className="text-xl  px-5">06</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Витрина товаров
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">До 20 позиций товаров или услуг с ценами и описанием.</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">До 20 позиций товаров или услуг с ценами и описанием.</p>
         </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]  duration-300  hover:scale-105 ">
           <p className="text-xl  px-5">07</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Новости и акции
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">До 5 публикаций — повод вернуться и заметить вас снова.</p>
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">До 5 публикаций — повод вернуться и заметить вас снова.</p>
         </div>
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50  hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105">
           <p className="text-xl  px-5">08</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Работа с отзывами
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Ответы на отзывы и выстраивание репутации профиля.
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Ответы на отзывы и выстраивание репутации профиля.
           </p>
         </div> <div className="border  border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl w-100 h-50 
          hover:bg-[#252525] duration-300 hover:scale-105">
           <p className="text-xl  px-5">09</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             QR-код профиля
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Код со ссылкой на карточку — для вывесок, меню, визиток.
+          <p className="text-xl mt-4 px-5 text-[#E0E0E0]">Код со ссылкой на карточку — для вывесок, меню, визиток.
           </p>
         </div> <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
           <p className="text-xl  px-5">10</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             Лента сторис
           </p>
-          <p className="text-xl mt-4 px-2 text-[#E0E0E0]">Короткие визуальные обновления прямо в профиле компании.
+          <p className="text-xl mt-4  px-5 text-[#E0E0E0]">Короткие визуальные обновления прямо в профиле компании.
           </p>
         </div>
         <div className="border border-[#2E2E2E] bg-[#1C1C1C] rounded-2xl  w-100 h-50 hover:bg-[#252525] hover:border-[#888888]   duration-300 hover:scale-105 ">
           <p className="text-xl  px-5">11</p>
-          <p className="text-xl px-5 py-2">
+          <p className=" text-3xl px-5 py-2">
             SEO-продвижение карточки
           </p>
-          <p className="text-xl mt-4 px-2">Работа с ключевыми словами, чтобы карточку находили чаще.
+          <p className="text-xl mt-4 px-5">Работа с ключевыми словами, чтобы карточку находили чаще.
           </p>
+        </div>
+      </div>
+
+
+      <div>
+        <div>
+          <p className="lg:text-3xl py-10" >Почему мы ? </p>
+        </div>
+        <div className="w-250">
+          <p className="lg: text-7xl">
+            Сертифицированный партнёр Яндекса, а не очередной фрилансер с обещаниями
+          </p>
+        </div>
+
+
+        <div className="lg:mt-10">
+          <div className="lg:w-130 h-15 py-4 flex px-5 border rounded-4xl bg-[#1C1C1C] hover:bg-[#252525] duration-500 hover:border-[#3D3D3D]  hover:scale-105">
+            <div className="mt-2 px-5">
+              <div className="lg:w-2 h-2 bg-yellow-300 border-amber-300 rounded-full border  ">
+              </div>
+            </div>
+            <p>Официальная сертификация партнёрства с Яндексом</p>
+          </div>
         </div>
       </div>
       <div className=" hidden mt-50 lg:block">
